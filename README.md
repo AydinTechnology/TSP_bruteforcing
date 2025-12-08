@@ -1,7 +1,7 @@
 # TSP_bruteforcing
 
 What is this?
-Traveling salesman problem worked out through bruteforcing
+Traveling salesman problem worked out through bruteforcing written in ANSI C
 
 How does it work?
 By generating each permutation, we can calculate its distance between points. Each route is compared against the previous optimal distance and if lower, the optimal route gets replaced. Eventually it will spit out the optimal route with the shortest distance to cover each waypoint.
