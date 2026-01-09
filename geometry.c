@@ -1,7 +1,7 @@
 #include <math.h>
 #include "waypoints.h"
 
-double calculate_distance(double firstwp_x, double firstwp_y, double secondwp_x, double secondwp_y) {       //pythagoras theorem from ohio
+double calculate_distance(double firstwp_x, double firstwp_y, double secondwp_x, double secondwp_y) {       //pythagoras theorem
     firstwp_x = firstwp_x - secondwp_x;
     firstwp_y = firstwp_y - secondwp_y;
     firstwp_x = firstwp_x * firstwp_x;
