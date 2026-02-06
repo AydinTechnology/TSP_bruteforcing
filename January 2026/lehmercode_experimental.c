@@ -17,7 +17,7 @@ int main() {
         array[i] = i + 1;
     }
 
-    //from permutation index to factoradic notation through succesive division
+    //from permutation index to factoradic notation through successive division
     int dividend = permutation_index;
     for(int i = 1; i <= total_symbols; i++) {
         factoradic_notation[total_symbols-i] = dividend % i;
